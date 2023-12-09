@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Wall
+  - Enemy
+  - Ground
+  - Tower
+  - Cover
+  - HPIcon
+  - Obstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Bullet
+  - Obstacle
+  - Enemy
+  - Ground
+  - MyBullet
+  - EnemyBullet
+  - Player
+  - EnemyPlane
+  - Tower
+  - Item
+  - Here
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2913889375
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 186466529
+    locked: 0
+  - name: Obstacle
+    uniqueID: 4549669
+    locked: 0
+  - name: Enemy
+    uniqueID: 684724979
+    locked: 0
+  - name: Player
+    uniqueID: 2894470787
+    locked: 0
+  - name: Bullet
+    uniqueID: 2072794195
+    locked: 0
+  - name: MG_Ground
+    uniqueID: 25313
+    locked: 0
+  - name: MG_Water
+    uniqueID: 67563
+    locked: 0
+  - name: MG_Objects
+    uniqueID: 64562
+    locked: 0

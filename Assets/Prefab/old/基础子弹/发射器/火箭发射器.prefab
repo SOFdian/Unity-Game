@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5016765700687800376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5016765700687800379}
+  - component: {fileID: 5016765700687800378}
+  - component: {fileID: 1905173100}
+  m_Layer: 10
+  m_Name: "\u706B\u7BAD\u53D1\u5C04\u5668"
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5016765700687800379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016765700687800376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.080736, y: 6.205997, z: 0.10842322}
+  m_LocalScale: {x: 1.8081558, y: 1.8081558, z: 1.8081558}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5016765700687800378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016765700687800376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7367bdd01fb364286b2784256b1e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialInterval: 0.8
+  interval: 0.4
+  bullet: {fileID: 6385940069138800045, guid: 30693f55005e6b44e9dd5229b53a9ab8, type: 3}
+  dir: {x: 0, y: 0}
+  parent: {fileID: 0}
+  playerAttribute: {fileID: 0}
+  element: {fileID: 0}
+  bulletNum: 6
+  angle: 15
+--- !u!114 &1905173100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016765700687800376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a30fbedd67b5b4098d50103e110951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: []
+  num: []
+  speed: 0
+  interval: 0
